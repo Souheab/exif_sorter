@@ -6,7 +6,6 @@ pictures_path = ""
 
 from PIL import Image, ExifTags
 import os
-import json
 
 # Get a particular exif metadata attribute of an image
 def get_exif_attribute(img, attribute):
